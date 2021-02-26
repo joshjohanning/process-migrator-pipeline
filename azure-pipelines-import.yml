@@ -41,3 +41,4 @@ steps:
     less output/processMigrator.log
   displayName: 'verbose logs'
   workingDirectory: $(Pipeline.Workspace)/process-migrator
+  condition: always()
