@@ -3822,27 +3822,10 @@
     },
     {
       "workItemType": {
-        "refName": "Microsoft.VSTS.WorkItemTypes.Issue",
+        "refName": "Microsoft.VSTS.WorkItemTypes.TestSuite",
         "workItemTypeClass": 0
       },
       "behaviors": []
-    },
-    {
-      "workItemType": {
-        "refName": "Microsoft.VSTS.WorkItemTypes.Epic",
-        "workItemTypeClass": 0
-      },
-      "behaviors": [
-        {
-          "behavior": {
-            "id": "Microsoft.VSTS.Agile.EpicBacklogBehavior",
-            "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/Microsoft.VSTS.Agile.EpicBacklogBehavior"
-          },
-          "isDefault": true,
-          "isLegacyDefault": false,
-          "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/Microsoft.VSTS.WorkItemTypes.Epic/behaviors/Microsoft.VSTS.Agile.EpicBacklogBehavior"
-        }
-      ]
     },
     {
       "workItemType": {
@@ -3860,6 +3843,13 @@
           "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/Microsoft.VSTS.WorkItemTypes.Feature/behaviors/Microsoft.VSTS.Agile.FeatureBacklogBehavior"
         }
       ]
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.Issue",
+        "workItemTypeClass": 0
+      },
+      "behaviors": []
     },
     {
       "workItemType": {
@@ -3887,13 +3877,6 @@
     },
     {
       "workItemType": {
-        "refName": "Microsoft.VSTS.WorkItemTypes.TestSuite",
-        "workItemTypeClass": 0
-      },
-      "behaviors": []
-    },
-    {
-      "workItemType": {
         "refName": "roi.UserStory",
         "workItemTypeClass": 1
       },
@@ -3906,6 +3889,23 @@
           "isDefault": true,
           "isLegacyDefault": false,
           "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/roi.UserStory/behaviors/System.RequirementBacklogBehavior"
+        }
+      ]
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.Epic",
+        "workItemTypeClass": 0
+      },
+      "behaviors": [
+        {
+          "behavior": {
+            "id": "Microsoft.VSTS.Agile.EpicBacklogBehavior",
+            "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/Microsoft.VSTS.Agile.EpicBacklogBehavior"
+          },
+          "isDefault": true,
+          "isLegacyDefault": false,
+          "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/Microsoft.VSTS.WorkItemTypes.Epic/behaviors/Microsoft.VSTS.Agile.EpicBacklogBehavior"
         }
       ]
     },
