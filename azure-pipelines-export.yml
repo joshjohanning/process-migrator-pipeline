@@ -43,6 +43,7 @@ steps:
   displayName: 'run app'
   workingDirectory: $(Pipeline.Workspace)/process-migrator
 
+# The following account needs contribute permissions on repository: "Project Collection Build Service Accounts"
 - script: |
     mkdir -p $(SourceCollection)
     cp $(Pipeline.Workspace)/process-migrator/output/process.json ./$(SourceCollection)
