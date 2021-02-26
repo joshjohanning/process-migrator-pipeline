@@ -17,12 +17,13 @@ steps:
 
 - script: git clone https://github.com/soccerjoshj07/process-migrator
   displayName: clone repository
+  workingDirectory: $(Pipeline.Workspace)
 
 - script: |
     npm install
     npm run build
   displayName: 'npm install and build'
-  workingDirectory: process-migrator
+  workingDirectory: $(Pipeline.Workspace)/process-migrator
 
 - script: | 
     cat <<< $(jq '.sourceAccountUrl = "https://dev.azure.com/$(SourceCollection)"' configuration.json) > configuration.json
@@ -34,7 +35,7 @@ steps:
     # jq '.sourceProcessName = "$(sourceProcessName)"' configuration-temp.json > configuration.json
     cat configuration.json
   displayName: setup config
-  workingDirectory: process-migrator
+  workingDirectory: $(Pipeline.Workspace)/process-migrator
 
 - script: |
     node -v
@@ -42,11 +43,11 @@ steps:
     node build/nodejs/nodejs/Main.js --mode=export
     cat output/processMigrator.log
   displayName: 'run app'
-  workingDirectory: process-migrator
+  workingDirectory: $(Pipeline.Workspace)/process-migrator
 
 - script: |
     mkdir -p $(SourceCollection)
-    cp process-migrator/output/process.json ./$(SourceCollection)
+    cp $(Pipeline.Workspace)/process-migrator/output/process.json ./$(SourceCollection)
     git config --global user.email "process-migrator@10thmagnitude.com"
     git config --global user.name "process-migrator"
     git add .
