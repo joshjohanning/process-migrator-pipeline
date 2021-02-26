@@ -12,7 +12,7 @@ steps:
 
 - task: NodeTool@0
   inputs:
-    versionSpec: '10.x'
+    versionSpec: '15.x'
   displayName: 'Install Node.js'
 
 - script: git clone https://github.com/soccerjoshj07/process-migrator
@@ -29,13 +29,15 @@ steps:
     jq '.sourceAccountUrl = "$(SourceCollection)"' configuration-temp.json > configuration.json
     jq '.sourceAccountToken = "$(pat)"' configuration-temp.json > configuration.json
     jq '.sourceProcessName = "$(sourceProcessName)"' configuration-temp.json > configuration.json
+    cat configuration.json
   displayName: setup config
   workingDirectory: process-migrator
 
 - script: |
-    node process-migrator/build/nodejs/nodejs/Main.js --mode export
-    less process-migrator/output/processMigrator.log
+    node build/nodejs/nodejs/Main.js --mode export
+    cat output/processMigrator.log
   displayName: 'run app'
+  workingDirectory: process-migrator
 
 - script: |
     mkdir -p $(SourceCollection)
