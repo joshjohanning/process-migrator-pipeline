@@ -10,10 +10,8 @@ variables:
 
 steps:
 
-# - task: NodeTool@0
-#   inputs:
-#     versionSpec: '15.x'
-#   displayName: 'Install Node.js'
+- checkout: self
+  persistCredentials: true
 
 - script: git clone https://github.com/soccerjoshj07/process-migrator
   displayName: clone repository
