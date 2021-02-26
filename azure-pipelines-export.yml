@@ -25,7 +25,7 @@ steps:
   workingDirectory: process-migrator
 
 - script: | 
-    cat <<< $(jq '.sourceAccountUrl = "$(SourceCollection)"' configuration.json) > configuration.json
+    cat <<< $(jq '.sourceAccountUrl = "https://dev.azure.com/$(SourceCollection)"' configuration.json) > configuration.json
     cat <<< $(jq '.sourceAccountToken = "$(PAT)"' configuration.json) > configuration.json
     cat <<< $(jq '.sourceProcessName = "$(sourceProcessName)"' configuration.json) > configuration.json
     # mv configuration.json configuration-temp.json
