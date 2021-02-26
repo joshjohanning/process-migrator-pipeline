@@ -1,4 +1,4 @@
-name: import-$(SourceCollection)-$(Date:yyyyMMdd).$(Rev:r)
+name: $(SourceCollection)-$(Date:yyyyMMdd).$(Rev:r)
 
 trigger: none
 
@@ -50,6 +50,6 @@ steps:
     git config --global user.email "process-migrator@10thmagnitude.com"
     git config --global user.name "process-migrator"
     git add .
-    git commit -m "export from pipeline run $(SourceCollection)-$(Build.BuildNumber)"
+    git commit -m "export from pipeline run $(Build.BuildNumber)"
     git push origin HEAD:main
   displayName: push to git repo
