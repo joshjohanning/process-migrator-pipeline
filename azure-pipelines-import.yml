@@ -27,6 +27,7 @@ steps:
     cat <<< $(jq '.targetAccountUrl = "https://dev.azure.com/$(TargetOrg)"' configuration.json) > configuration.json
     cat <<< $(jq '.targetAccountToken = "$(PAT)"' configuration.json) > configuration.json
     cat <<< $(jq '.options["processFilename"] = "$(Build.SourcesDirectory)/$(ProcessFileName)"' configuration.json) > configuration.json
+    cat <<< $(jq '.options["logLevel"] = "verbose"' configuration.json) > configuration.json
     cat configuration.json
   displayName: setup config
   workingDirectory: $(Pipeline.Workspace)/process-migrator
@@ -36,9 +37,3 @@ steps:
     node build/nodejs/nodejs/Main.js --mode=import
   displayName: 'run app'
   workingDirectory: $(Pipeline.Workspace)/process-migrator
-
-- script: |
-    less output/processMigrator.log
-  displayName: 'verbose logs'
-  workingDirectory: $(Pipeline.Workspace)/process-migrator
-  condition: always()
