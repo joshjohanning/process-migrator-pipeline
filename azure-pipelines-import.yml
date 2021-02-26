@@ -8,6 +8,11 @@ pool:
 variables:
 - group: azdo
 
+parameters:
+- name: deleteExistingProcessTemplate
+  type: boolean
+  default: false
+
 steps:
 
 - checkout: self
@@ -22,6 +27,33 @@ steps:
     npm run build
   displayName: 'npm install and build'
   workingDirectory: $(Pipeline.Workspace)/process-migrator
+
+- ${{ if eq(parameters.deleteExistingProcessTemplate, 'true') }}:
+  - script: |
+      processToDelete="${$(ProcessFileName)%.*}"
+
+      output=$(curl -s -u :$(PAT) "https://dev.azure.com/$(TargetOrg)/_apis/work/processes?api-version=6.1-preview.2" | jq '.value')
+      for row in $(echo "${output}" | jq -r '.[] | @base64'); do
+        _jq() {
+          echo ${row} | base64 --decode | jq -r ${1}
+        }
+
+        if [[ $(_jq '.name') = "${processToDelete}" ]]; then
+          id=$(echo $(_jq '.typeId'))
+          count=1
+        fi
+      done
+
+      if [[ ${count} == 1 ]]; then
+        echo "ID to delete: $id"
+        curl -u :$(PAT) -X DELETE "https://dev.azure.com/$(TargetOrg)/_apis/work/processes/${id}?api-version=6.1-preview.2"
+      else
+        echo "process template not found: ${processToDelete}"
+        exit -1
+      fi
+
+    condition: and(succeeded(), eq('${{ parameters.deleteExistingProcessTemplate }}', true))
+    displayName: delete existing process template
 
 - script: | 
     cat <<< $(jq '.targetAccountUrl = "https://dev.azure.com/$(TargetOrg)"' configuration.json) > configuration.json
