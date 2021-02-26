@@ -32,12 +32,15 @@ steps:
   workingDirectory: $(Pipeline.Workspace)/process-migrator
 
 - script: |
-    node -v
-    npm -v
     node build/nodejs/nodejs/Main.js --mode=export
-    less output/processMigrator.log
   displayName: 'run app'
   workingDirectory: $(Pipeline.Workspace)/process-migrator
+  
+- script: |
+    less output/processMigrator.log
+  displayName: 'verbose logs'
+  workingDirectory: $(Pipeline.Workspace)/process-migrator
+  condition: always()
 
 # The following account needs contribute permissions on repository: "Project Collection Build Service Accounts"
 - script: |
