@@ -1,4 +1,4 @@
-name: $(SourceCollection)-$(Date:yyyyMMdd).$(Rev:r)
+name: import-$(SourceCollection)-$(Date:yyyyMMdd).$(Rev:r)
 
 trigger: none
 
@@ -9,6 +9,11 @@ variables:
   group: azdo
 
 steps:
+
+- task: NodeTool@0
+  inputs:
+    versionSpec: '10.x'
+  displayName: 'Install Node.js'
 
 - script: git clone https://github.com/soccerjoshj07/process-migrator
   displayName: clone repository
@@ -35,6 +40,8 @@ steps:
 - script: |
     mkdir -p $(SourceCollection)
     cp process-migrator/output/process.json ./$(SourceCollection)
+    git config --global user.email "process-migrator@10thmagnitude.com"
+    git config --global user.name "process-migrator"
     git add .
     git commit -m "export from pipeline run $(SourceCollection)-$(Date:yyyyMMdd).$(Rev:r)"
     git push
