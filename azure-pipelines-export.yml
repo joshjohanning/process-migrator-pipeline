@@ -6,7 +6,7 @@ pool:
   vmImage: ubuntu-latest
   
 variables:
-  group: azdo
+- group: azdo
 
 steps:
 
@@ -26,7 +26,7 @@ steps:
 
 - script: | 
     cat <<< $(jq '.sourceAccountUrl = "$(SourceCollection)"' configuration.json) > configuration.json
-    cat <<< $(jq '.sourceAccountToken = "$(pat)"' configuration.json) > configuration.json
+    cat <<< $(jq '.sourceAccountToken = "$(PAT)"' configuration.json) > configuration.json
     cat <<< $(jq '.sourceProcessName = "$(sourceProcessName)"' configuration.json) > configuration.json
     # mv configuration.json configuration-temp.json
     # jq '.sourceAccountUrl = "$(SourceCollection)"' configuration-temp.json > configuration.json
