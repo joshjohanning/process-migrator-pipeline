@@ -1,0 +1,3921 @@
+{
+  "process": {
+    "typeId": "72b9d2e7-7851-4ccd-98c8-5f2530683dd4",
+    "referenceName": "75d159bafcde611e9a62d0ef8d7d904a",
+    "name": "roi",
+    "description": "",
+    "properties": {
+      "class": 1,
+      "parentProcessTypeId": "adcc42ab-9882-485e-a3ed-7678f01f66bc",
+      "isEnabled": true,
+      "version": "1.0",
+      "isDefault": false
+    }
+  },
+  "fields": [
+    {
+      "id": "Custom.ROI",
+      "name": "ROI",
+      "type": 10,
+      "description": "",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Custom.ROI",
+      "isIdentity": false
+    },
+    {
+      "id": "Custom.Importance",
+      "name": "Importance",
+      "type": 10,
+      "description": "",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Custom.Importance",
+      "isIdentity": false
+    },
+    {
+      "id": "System.Id",
+      "name": "Id",
+      "type": 2,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.Id",
+      "isIdentity": false
+    },
+    {
+      "id": "System.Title",
+      "name": "Title",
+      "type": 1,
+      "description": "What the user will be able to do when this is implemented",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.Title",
+      "isIdentity": false
+    },
+    {
+      "id": "System.Description",
+      "name": "Description",
+      "type": 7,
+      "description": "Description or reference to the story that must work for this work to be considered complete",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.Description",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Scheduling.StoryPoints",
+      "name": "Story Points",
+      "type": 10,
+      "description": "The size of work estimated for implementing this user story",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Scheduling.StoryPoints",
+      "isIdentity": false
+    },
+    {
+      "id": "System.AssignedTo",
+      "name": "Assigned To",
+      "type": 1,
+      "description": "The person currently working on this story",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.AssignedTo",
+      "isIdentity": true
+    },
+    {
+      "id": "System.AreaPath",
+      "name": "Area Path",
+      "type": 8,
+      "description": "The area of the product with which this user story is associated",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.AreaPath",
+      "isIdentity": false
+    },
+    {
+      "id": "System.IterationPath",
+      "name": "Iteration Path",
+      "type": 8,
+      "description": "The iteration within which this user story will be implemented",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.IterationPath",
+      "isIdentity": false
+    },
+    {
+      "id": "System.History",
+      "name": "History",
+      "type": 9,
+      "description": "Discussion thread plus automatic record of changes",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.History",
+      "isIdentity": false
+    },
+    {
+      "id": "System.State",
+      "name": "State",
+      "type": 1,
+      "description": "New = Not started yet; Active = work remains to be done; Resolved = awaiting acceptance tests; Closed = acceptance tests passed",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.State",
+      "isIdentity": false
+    },
+    {
+      "id": "System.Reason",
+      "name": "Reason",
+      "type": 1,
+      "description": "The reason why the story is in its current state",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.Reason",
+      "isIdentity": false
+    },
+    {
+      "id": "System.ChangedDate",
+      "name": "Changed Date",
+      "type": 3,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.ChangedDate",
+      "isIdentity": false
+    },
+    {
+      "id": "System.ChangedBy",
+      "name": "Changed By",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.ChangedBy",
+      "isIdentity": true
+    },
+    {
+      "id": "System.CreatedDate",
+      "name": "Created Date",
+      "type": 3,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.CreatedDate",
+      "isIdentity": false
+    },
+    {
+      "id": "System.CreatedBy",
+      "name": "Created By",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.CreatedBy",
+      "isIdentity": true
+    },
+    {
+      "id": "Microsoft.VSTS.Common.StateChangeDate",
+      "name": "State Change Date",
+      "type": 3,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.StateChangeDate",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Common.ActivatedDate",
+      "name": "Activated Date",
+      "type": 3,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.ActivatedDate",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Common.ActivatedBy",
+      "name": "Activated By",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.ActivatedBy",
+      "isIdentity": true
+    },
+    {
+      "id": "Microsoft.VSTS.Common.ResolvedDate",
+      "name": "Resolved Date",
+      "type": 3,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.ResolvedDate",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Common.ResolvedBy",
+      "name": "Resolved By",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.ResolvedBy",
+      "isIdentity": true
+    },
+    {
+      "id": "Microsoft.VSTS.Common.ResolvedReason",
+      "name": "Resolved Reason",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.ResolvedReason",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Common.ClosedDate",
+      "name": "Closed Date",
+      "type": 3,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.ClosedDate",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Common.ClosedBy",
+      "name": "Closed By",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.ClosedBy",
+      "isIdentity": true
+    },
+    {
+      "id": "Microsoft.VSTS.Common.AcceptanceCriteria",
+      "name": "Acceptance Criteria",
+      "type": 7,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.AcceptanceCriteria",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Common.Priority",
+      "name": "Priority",
+      "type": 2,
+      "description": "Business importance. 1=must fix; 4=unimportant.",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.Priority",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Common.Risk",
+      "name": "Risk",
+      "type": 1,
+      "description": "Uncertainty in requirement or design",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.Risk",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Common.StackRank",
+      "name": "Stack Rank",
+      "type": 10,
+      "description": "Work first on items with lower-valued stack rank. Set in triage.",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.StackRank",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Scheduling.StartDate",
+      "name": "Start Date",
+      "type": 3,
+      "description": "The start date for implementation of this story",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Scheduling.StartDate",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Scheduling.FinishDate",
+      "name": "Finish Date",
+      "type": 3,
+      "description": "The completion date for all the tasks implementing this story",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Scheduling.FinishDate",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Common.ValueArea",
+      "name": "Value Area",
+      "type": 1,
+      "description": "Business = delivers value to a user or another system; Architectural = work to support other stories or components",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.ValueArea",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Build.IntegrationBuild",
+      "name": "Integration Build",
+      "type": 1,
+      "description": "The build in which the bug was fixed",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Build.IntegrationBuild",
+      "isIdentity": false
+    },
+    {
+      "id": "System.IterationId",
+      "name": "Iteration ID",
+      "type": 2,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.IterationId",
+      "isIdentity": false
+    },
+    {
+      "id": "System.ExternalLinkCount",
+      "name": "External Link Count",
+      "type": 2,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.ExternalLinkCount",
+      "isIdentity": false
+    },
+    {
+      "id": "System.TeamProject",
+      "name": "Team Project",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.TeamProject",
+      "isIdentity": false
+    },
+    {
+      "id": "System.Parent",
+      "name": "Parent",
+      "type": 2,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.Parent",
+      "isIdentity": false
+    },
+    {
+      "id": "System.RemoteLinkCount",
+      "name": "Remote Link Count",
+      "type": 2,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.RemoteLinkCount",
+      "isIdentity": false
+    },
+    {
+      "id": "System.CommentCount",
+      "name": "Comment Count",
+      "type": 2,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.CommentCount",
+      "isIdentity": false
+    },
+    {
+      "id": "System.HyperLinkCount",
+      "name": "Hyperlink Count",
+      "type": 2,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.HyperLinkCount",
+      "isIdentity": false
+    },
+    {
+      "id": "System.AttachedFileCount",
+      "name": "Attached File Count",
+      "type": 2,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.AttachedFileCount",
+      "isIdentity": false
+    },
+    {
+      "id": "System.NodeName",
+      "name": "Node Name",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.NodeName",
+      "isIdentity": false
+    },
+    {
+      "id": "System.RevisedDate",
+      "name": "Revised Date",
+      "type": 3,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.RevisedDate",
+      "isIdentity": false
+    },
+    {
+      "id": "System.AreaId",
+      "name": "Area ID",
+      "type": 2,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.AreaId",
+      "isIdentity": false
+    },
+    {
+      "id": "System.AuthorizedAs",
+      "name": "Authorized As",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.AuthorizedAs",
+      "isIdentity": true
+    },
+    {
+      "id": "System.AuthorizedDate",
+      "name": "Authorized Date",
+      "type": 3,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.AuthorizedDate",
+      "isIdentity": false
+    },
+    {
+      "id": "System.Watermark",
+      "name": "Watermark",
+      "type": 2,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.Watermark",
+      "isIdentity": false
+    },
+    {
+      "id": "System.Rev",
+      "name": "Rev",
+      "type": 2,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.Rev",
+      "isIdentity": false
+    },
+    {
+      "id": "System.WorkItemType",
+      "name": "Work Item Type",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.WorkItemType",
+      "isIdentity": false
+    },
+    {
+      "id": "System.RelatedLinkCount",
+      "name": "Related Link Count",
+      "type": 2,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.RelatedLinkCount",
+      "isIdentity": false
+    },
+    {
+      "id": "System.Tags",
+      "name": "Tags",
+      "type": 5,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.Tags",
+      "isIdentity": false
+    },
+    {
+      "id": "System.BoardColumn",
+      "name": "Board Column",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.BoardColumn",
+      "isIdentity": false
+    },
+    {
+      "id": "System.BoardColumnDone",
+      "name": "Board Column Done",
+      "type": 12,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.BoardColumnDone",
+      "isIdentity": false
+    },
+    {
+      "id": "System.BoardLane",
+      "name": "Board Lane",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/System.BoardLane",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Scheduling.RemainingWork",
+      "name": "Remaining Work",
+      "type": 10,
+      "description": "An estimate of the number of units of work remaining to complete this bug",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Scheduling.RemainingWork",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Scheduling.OriginalEstimate",
+      "name": "Original Estimate",
+      "type": 10,
+      "description": "Initial value for Remaining Work - set once, when work begins",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Scheduling.OriginalEstimate",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Scheduling.CompletedWork",
+      "name": "Completed Work",
+      "type": 10,
+      "description": "The number of units of work that have been spent on this bug",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Scheduling.CompletedWork",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Common.Activity",
+      "name": "Activity",
+      "type": 1,
+      "description": "Type of work involved",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.Activity",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.TCM.SystemInfo",
+      "name": "System Info",
+      "type": 7,
+      "description": "Test context, provided automatically by test infrastructure",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.TCM.SystemInfo",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.TCM.ReproSteps",
+      "name": "Repro Steps",
+      "type": 7,
+      "description": "How to see the bug. End by contrasting expected with actual behavior.",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.TCM.ReproSteps",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Common.Severity",
+      "name": "Severity",
+      "type": 1,
+      "description": "Assessment of the effect of the bug on the project",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.Severity",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Build.FoundIn",
+      "name": "Found In",
+      "type": 1,
+      "description": "The build in which the bug was found",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Build.FoundIn",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.CodeReview.ClosingComment",
+      "name": "Closing Comment",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.CodeReview.ClosingComment",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.CodeReview.ContextCode",
+      "name": "Associated Context Code",
+      "type": 2,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.CodeReview.ContextCode",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.CodeReview.ContextType",
+      "name": "Associated Context Type",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.CodeReview.ContextType",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.CodeReview.Context",
+      "name": "Associated Context",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.CodeReview.Context",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.CodeReview.ContextOwner",
+      "name": "Associated Context Owner",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.CodeReview.ContextOwner",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.CodeReview.ClosedStatusCode",
+      "name": "Closed Status Code",
+      "type": 2,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.CodeReview.ClosedStatusCode",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.CodeReview.ClosedStatus",
+      "name": "Closed Status",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.CodeReview.ClosedStatus",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Common.StateCode",
+      "name": "State Code",
+      "type": 2,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.StateCode",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.CodeReview.AcceptedDate",
+      "name": "Accepted Date",
+      "type": 3,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.CodeReview.AcceptedDate",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.CodeReview.AcceptedBy",
+      "name": "Accepted By",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.CodeReview.AcceptedBy",
+      "isIdentity": true
+    },
+    {
+      "id": "Microsoft.VSTS.Common.ReviewedBy",
+      "name": "Reviewed By",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.ReviewedBy",
+      "isIdentity": true
+    },
+    {
+      "id": "Microsoft.VSTS.Scheduling.TargetDate",
+      "name": "Target Date",
+      "type": 3,
+      "description": "The target date for completing the epic",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Scheduling.TargetDate",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Common.BusinessValue",
+      "name": "Business Value",
+      "type": 2,
+      "description": "The business value for the customer when the epic is released",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.BusinessValue",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Common.TimeCriticality",
+      "name": "Time Criticality",
+      "type": 10,
+      "description": "How does the business value decay over time. Higher values make the epic more time critical",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.TimeCriticality",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Scheduling.Effort",
+      "name": "Effort",
+      "type": 10,
+      "description": "The estimated effort to implemented the epic",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Scheduling.Effort",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Feedback.ApplicationType",
+      "name": "Application Type",
+      "type": 1,
+      "description": "The type of application on which to give feedback",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Feedback.ApplicationType",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Feedback.ApplicationStartInformation",
+      "name": "Application Start Information",
+      "type": 5,
+      "description": "The path to execute the application",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Feedback.ApplicationStartInformation",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Feedback.ApplicationLaunchInstructions",
+      "name": "Application Launch Instructions",
+      "type": 7,
+      "description": "Instructions to launch the specified application",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Feedback.ApplicationLaunchInstructions",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Common.Rating",
+      "name": "Rating",
+      "type": 1,
+      "description": "Overall rating provided as part of feedback response",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.Rating",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Common.Issue",
+      "name": "Issue",
+      "type": 1,
+      "description": "Used to highlight the shared step, e.g., to mark it as an issue",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Common.Issue",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.TCM.Steps",
+      "name": "Steps",
+      "type": 7,
+      "description": "Steps required to perform the test",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.TCM.Steps",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.TCM.Parameters",
+      "name": "Parameters",
+      "type": 7,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.TCM.Parameters",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.TCM.AutomatedTestName",
+      "name": "Automated Test Name",
+      "type": 1,
+      "description": "The name of the test that automates this test case",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.TCM.AutomatedTestName",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.TCM.AutomatedTestStorage",
+      "name": "Automated Test Storage",
+      "type": 1,
+      "description": "The assembly containing the test that automates this test case",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.TCM.AutomatedTestStorage",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.TCM.AutomatedTestId",
+      "name": "Automated Test Id",
+      "type": 1,
+      "description": "The ID of the test that automates this test case",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.TCM.AutomatedTestId",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.TCM.AutomatedTestType",
+      "name": "Automated Test Type",
+      "type": 1,
+      "description": "The type of the test that automates this test case",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.TCM.AutomatedTestType",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.TCM.LocalDataSource",
+      "name": "Local Data Source",
+      "type": 7,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.TCM.LocalDataSource",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.TCM.AutomationStatus",
+      "name": "Automation status",
+      "type": 1,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.TCM.AutomationStatus",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.TCM.TestSuiteTypeId",
+      "name": "Test Suite Type Id",
+      "type": 2,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.TCM.TestSuiteTypeId",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.TCM.TestSuiteType",
+      "name": "Test Suite Type",
+      "type": 1,
+      "description": "Specifies the category of the test suite.",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.TCM.TestSuiteType",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.TCM.QueryText",
+      "name": "Query Text",
+      "type": 5,
+      "description": null,
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.TCM.QueryText",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.TCM.TestSuiteAudit",
+      "name": "Test Suite Audit",
+      "type": 5,
+      "description": "Captures the test suite audit trail.",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.TCM.TestSuiteAudit",
+      "isIdentity": false
+    },
+    {
+      "id": "Microsoft.VSTS.Scheduling.DueDate",
+      "name": "Due Date",
+      "type": 3,
+      "description": "The date by which this issue needs to be closed",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/fields/Microsoft.VSTS.Scheduling.DueDate",
+      "isIdentity": false
+    }
+  ],
+  "workItemTypeFields": [
+    {
+      "workItemTypeRefName": "roi.UserStory",
+      "fields": [
+        {
+          "referenceName": "Custom.ROI",
+          "name": "ROI",
+          "type": 10,
+          "pickList": null,
+          "readOnly": false,
+          "required": false,
+          "defaultValue": null,
+          "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/roi.UserStory/fields/Custom.ROI",
+          "allowGroups": null
+        },
+        {
+          "referenceName": "Custom.Importance",
+          "name": "Importance",
+          "type": 10,
+          "pickList": null,
+          "readOnly": false,
+          "required": false,
+          "defaultValue": null,
+          "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/roi.UserStory/fields/Custom.Importance",
+          "allowGroups": null
+        }
+      ]
+    }
+  ],
+  "workItemTypes": [
+    {
+      "id": "roi.UserStory",
+      "name": "User Story",
+      "description": "Tracks an activity the user will be able to perform with the product",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/roi.UserStory",
+      "inherits": "Microsoft.VSTS.WorkItemTypes.UserStory",
+      "class": 1,
+      "color": "009CCC",
+      "icon": "icon_book",
+      "isDisabled": false
+    }
+  ],
+  "layouts": [
+    {
+      "workItemTypeRefName": "roi.UserStory",
+      "layout": {
+        "pages": [
+          {
+            "id": "Agile.User Story.User Story",
+            "inherited": true,
+            "overridden": true,
+            "label": "Details",
+            "pageType": 1,
+            "locked": false,
+            "visible": true,
+            "isContribution": false,
+            "sections": [
+              {
+                "id": "Section1",
+                "groups": [
+                  {
+                    "id": "Agile.User Story.User Story.Description.WideGroup",
+                    "inherited": true,
+                    "label": "Description",
+                    "isContribution": false,
+                    "visible": true,
+                    "controls": [
+                      {
+                        "id": "System.Description",
+                        "inherited": true,
+                        "label": "Description",
+                        "controlType": "HtmlFieldControl",
+                        "readOnly": false,
+                        "watermark": "",
+                        "metadata": "",
+                        "visible": true,
+                        "isContribution": false
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Agile.User Story.User Story.Acceptance Criteria.WideGroup",
+                    "inherited": true,
+                    "label": "Acceptance Criteria",
+                    "isContribution": false,
+                    "visible": true,
+                    "controls": [
+                      {
+                        "id": "Microsoft.VSTS.Common.AcceptanceCriteria",
+                        "inherited": true,
+                        "label": "Acceptance Criteria",
+                        "controlType": "HtmlFieldControl",
+                        "readOnly": false,
+                        "watermark": "",
+                        "metadata": "",
+                        "visible": true,
+                        "isContribution": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "Section2",
+                "groups": [
+                  {
+                    "id": "Agile.User Story.User Story.Planning",
+                    "inherited": true,
+                    "label": "Planning",
+                    "isContribution": false,
+                    "visible": true,
+                    "controls": [
+                      {
+                        "id": "Microsoft.VSTS.Scheduling.StoryPoints",
+                        "inherited": true,
+                        "label": "Story Points",
+                        "controlType": "FieldControl",
+                        "readOnly": false,
+                        "watermark": "",
+                        "metadata": "",
+                        "visible": true,
+                        "isContribution": false
+                      },
+                      {
+                        "id": "Microsoft.VSTS.Common.Priority",
+                        "inherited": true,
+                        "label": "Priority",
+                        "controlType": "FieldControl",
+                        "readOnly": false,
+                        "watermark": "",
+                        "metadata": "",
+                        "visible": true,
+                        "isContribution": false
+                      },
+                      {
+                        "id": "Microsoft.VSTS.Common.Risk",
+                        "inherited": true,
+                        "label": "Risk",
+                        "controlType": "FieldControl",
+                        "readOnly": false,
+                        "watermark": "",
+                        "metadata": "",
+                        "visible": true,
+                        "isContribution": false
+                      },
+                      {
+                        "id": "Custom.Importance",
+                        "label": "Importance",
+                        "controlType": "FieldControl",
+                        "readOnly": false,
+                        "visible": true,
+                        "isContribution": false
+                      },
+                      {
+                        "id": "Custom.ROI",
+                        "label": "ROI",
+                        "controlType": "FieldControl",
+                        "readOnly": false,
+                        "visible": true,
+                        "isContribution": false
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Agile.User Story.User Story.Classification",
+                    "inherited": true,
+                    "label": "Classification",
+                    "isContribution": false,
+                    "visible": true,
+                    "controls": [
+                      {
+                        "id": "Microsoft.VSTS.Common.ValueArea",
+                        "inherited": true,
+                        "label": "Value area",
+                        "controlType": "FieldControl",
+                        "readOnly": false,
+                        "watermark": "",
+                        "metadata": "",
+                        "visible": true,
+                        "isContribution": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "Section3",
+                "groups": [
+                  {
+                    "id": "Agile.User Story.User Story.Deployment",
+                    "inherited": true,
+                    "label": "Deployment",
+                    "isContribution": false,
+                    "visible": true,
+                    "controls": [
+                      {
+                        "id": "Deployments",
+                        "inherited": true,
+                        "label": "",
+                        "controlType": "DeploymentsControl",
+                        "readOnly": false,
+                        "watermark": "",
+                        "metadata": "",
+                        "visible": true,
+                        "isContribution": false
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Agile.User Story.User Story.Development",
+                    "inherited": true,
+                    "label": "Development",
+                    "isContribution": false,
+                    "visible": true,
+                    "controls": [
+                      {
+                        "id": "Development",
+                        "inherited": true,
+                        "label": "",
+                        "controlType": "LinksControl",
+                        "readOnly": false,
+                        "watermark": "",
+                        "metadata": "<LinksControlOptions ViewMode=\"List\" ZeroDataExperience=\"Development\" ShowCallToAction=\"true\"><ListViewOptions GroupLinks=\"false\"></ListViewOptions><LinkFilters><ExternalLinkFilter Type=\"Build\" /><ExternalLinkFilter Type=\"Integrated in build\" /><ExternalLinkFilter Type=\"Pull Request\" /><ExternalLinkFilter Type=\"Branch\" /><ExternalLinkFilter Type=\"Fixed in Commit\" /><ExternalLinkFilter Type=\"Fixed in Changeset\" /><ExternalLinkFilter Type=\"Source Code File\" /><ExternalLinkFilter Type=\"Found in build\" /><ExternalLinkFilter Type=\"GitHub Pull Request\" /><ExternalLinkFilter Type=\"GitHub Commit\" /></LinkFilters></LinksControlOptions>",
+                        "visible": true,
+                        "isContribution": false
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Agile.User Story.User Story.Related Work",
+                    "inherited": true,
+                    "label": "Related Work",
+                    "isContribution": false,
+                    "visible": true,
+                    "controls": [
+                      {
+                        "id": "Related Work",
+                        "inherited": true,
+                        "label": "",
+                        "controlType": "LinksControl",
+                        "readOnly": false,
+                        "watermark": "",
+                        "metadata": "<LinksControlOptions ViewMode=\"List\"><LinkFilters><WorkItemLinkFilter Type=\"System.LinkTypes.Duplicate-Reverse\" /><WorkItemLinkFilter Type=\"System.LinkTypes.Hierarchy-Reverse\" /><WorkItemLinkFilter Type=\"Microsoft.VSTS.Common.TestedBy-Reverse\" /><WorkItemLinkFilter Type=\"Microsoft.VSTS.Common.TestedBy-Forward\" /><WorkItemLinkFilter Type=\"System.LinkTypes.Hierarchy-Forward\" /><WorkItemLinkFilter Type=\"System.LinkTypes.Duplicate-Forward\" /><WorkItemLinkFilter Type=\"System.LinkTypes.Dependency\" /><WorkItemLinkFilter Type=\"System.LinkTypes.Related\" /><ExternalLinkFilter Type=\"GitHub Issue\" /></LinkFilters><Columns><Column Name=\"System.State\" /><Column Name=\"System.ChangedDate\" /><Column Name=\"System.Links.Comment\" /></Columns></LinksControlOptions>",
+                        "visible": true,
+                        "isContribution": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "Section4",
+                "groups": []
+              }
+            ]
+          },
+          {
+            "id": "Agile.User Story.System_History",
+            "inherited": true,
+            "label": "History",
+            "pageType": 2,
+            "locked": true,
+            "visible": true,
+            "isContribution": false,
+            "sections": [
+              {
+                "id": "Section1",
+                "groups": [
+                  {
+                    "id": "Agile.User Story.System_History.History",
+                    "inherited": true,
+                    "label": "History",
+                    "isContribution": false,
+                    "visible": true,
+                    "controls": [
+                      {
+                        "id": "System.History",
+                        "inherited": true,
+                        "controlType": "WorkItemLogControl",
+                        "visible": true,
+                        "isContribution": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "Section2",
+                "groups": []
+              },
+              {
+                "id": "Section3",
+                "groups": []
+              },
+              {
+                "id": "Section4",
+                "groups": []
+              }
+            ]
+          },
+          {
+            "id": "Agile.User Story.System_Links",
+            "inherited": true,
+            "label": "Links",
+            "pageType": 3,
+            "locked": true,
+            "visible": true,
+            "isContribution": false,
+            "sections": [
+              {
+                "id": "Section1",
+                "groups": [
+                  {
+                    "id": "Agile.User Story.System_Links.Links",
+                    "inherited": true,
+                    "label": "Links",
+                    "isContribution": false,
+                    "visible": true,
+                    "controls": [
+                      {
+                        "inherited": true,
+                        "controlType": "LinksControl",
+                        "metadata": "<LinksControlOptions ZeroDataExperience=\"CallToAction\"><Columns><Column Name=\"System.State\" /><Column Name=\"System.ChangedDate\" /><Column Name=\"System.Links.Comment\" /></Columns></LinksControlOptions>",
+                        "visible": true,
+                        "isContribution": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "Section2",
+                "groups": []
+              },
+              {
+                "id": "Section3",
+                "groups": []
+              },
+              {
+                "id": "Section4",
+                "groups": []
+              }
+            ]
+          },
+          {
+            "id": "Agile.User Story.System_Attachments",
+            "inherited": true,
+            "label": "Attachments",
+            "pageType": 4,
+            "locked": true,
+            "visible": true,
+            "isContribution": false,
+            "sections": [
+              {
+                "id": "Section1",
+                "groups": [
+                  {
+                    "id": "Agile.User Story.System_Attachments.Attachments",
+                    "inherited": true,
+                    "label": "Attachments",
+                    "isContribution": false,
+                    "visible": true,
+                    "controls": [
+                      {
+                        "inherited": true,
+                        "label": "Attachments",
+                        "controlType": "AttachmentsControl",
+                        "visible": true,
+                        "isContribution": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "Section2",
+                "groups": []
+              },
+              {
+                "id": "Section3",
+                "groups": []
+              },
+              {
+                "id": "Section4",
+                "groups": []
+              }
+            ]
+          }
+        ],
+        "systemControls": [
+          {
+            "id": "System.Title",
+            "label": "",
+            "controlType": "FieldControl",
+            "readOnly": false,
+            "watermark": "Enter title",
+            "visible": true,
+            "isContribution": false
+          },
+          {
+            "id": "System.AssignedTo",
+            "label": "Assi&gned To",
+            "controlType": "FieldControl",
+            "readOnly": false,
+            "watermark": "",
+            "visible": true,
+            "isContribution": false
+          },
+          {
+            "id": "System.State",
+            "label": "Stat&e",
+            "controlType": "FieldControl",
+            "readOnly": false,
+            "watermark": "",
+            "visible": true,
+            "isContribution": false
+          },
+          {
+            "id": "System.Reason",
+            "label": "Reason",
+            "controlType": "FieldControl",
+            "readOnly": false,
+            "watermark": "",
+            "visible": true,
+            "isContribution": false
+          },
+          {
+            "id": "System.AreaPath",
+            "label": "&Area",
+            "controlType": "WorkItemClassificationControl",
+            "readOnly": false,
+            "watermark": "",
+            "visible": true,
+            "isContribution": false
+          },
+          {
+            "id": "System.IterationPath",
+            "label": "Ite&ration",
+            "controlType": "WorkItemClassificationControl",
+            "readOnly": false,
+            "watermark": "",
+            "visible": true,
+            "isContribution": false
+          },
+          {
+            "id": "System.History",
+            "label": "History",
+            "controlType": "WorkItemLogControl",
+            "readOnly": false,
+            "watermark": "",
+            "visible": true,
+            "isContribution": false
+          },
+          {
+            "id": "Links",
+            "label": "Links",
+            "controlType": "LinksControl",
+            "readOnly": false,
+            "watermark": "",
+            "visible": true,
+            "isContribution": false
+          },
+          {
+            "id": "Attachments",
+            "label": "Attachments",
+            "controlType": "AttachmentsControl",
+            "readOnly": false,
+            "watermark": "",
+            "visible": true,
+            "isContribution": false
+          }
+        ]
+      }
+    }
+  ],
+  "states": [
+    {
+      "workItemTypeRefName": "roi.UserStory",
+      "states": []
+    }
+  ],
+  "rules": [
+    {
+      "workItemTypeRefName": "roi.UserStory",
+      "rules": [
+        {
+          "id": "0311ecf8-5810-4f2c-accf-754ac8659d07",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenNotChanged",
+              "field": "System.State",
+              "value": null
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeReadOnly",
+              "targetField": "System.Reason",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "093935d2-5715-408e-ac9c-13689f84bc17",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Resolved"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Removed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyValue",
+              "targetField": "System.Reason",
+              "value": "Removed from the backlog"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "fa2f3d7e-1692-4255-b642-c9ad8fb6a8c7",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Resolved"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Removed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.Reason",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "79264871-0c2b-453a-8d37-b5a25dbd68c8",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Resolved"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyValue",
+              "targetField": "System.Reason",
+              "value": "Acceptance tests pass"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "e2f428a8-aac3-4347-a51b-1166442f88cb",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Resolved"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.Reason",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "e93655ea-6d0d-45f8-a0ea-b3a7a7ebf107",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Resolved"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyValue",
+              "targetField": "System.Reason",
+              "value": "Acceptance tests fail"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "d7b08496-a8b6-42af-991f-4195a1824a1d",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Resolved"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.Reason",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "326ac159-fc6c-4935-9aa5-d4c506365ae7",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Resolved"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "New"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyValue",
+              "targetField": "System.Reason",
+              "value": "Moved to the backlog"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "bb43bfa1-67d1-4f3a-901a-df868037ac5a",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Resolved"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "New"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.Reason",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "389edced-1412-4bb3-97e1-cb2c5d0488b3",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Removed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyValue",
+              "targetField": "System.Reason",
+              "value": "Removed from the backlog"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "548cbeea-c0b2-4e4a-820f-7421085a67b9",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Removed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.Reason",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "9d2e4b3f-d293-44d4-9bf2-ed5a701440c9",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyValue",
+              "targetField": "System.Reason",
+              "value": "Acceptance tests pass"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "4f904616-ddff-4780-b493-2039e56c1087",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.Reason",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "4f6dbceb-fd2d-4420-be19-bb08ef94c4db",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Resolved"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyValue",
+              "targetField": "System.Reason",
+              "value": "Code complete and unit tests pass"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "bc51e86e-a1cf-4e34-bbde-0d7ac34aed87",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Resolved"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.Reason",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "96c14d27-9533-4726-a2a7-547a2b638ae4",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "New"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyValue",
+              "targetField": "System.Reason",
+              "value": "Moved to the backlog"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "57dd0569-e27e-4630-998e-72f8ae66dfd7",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "New"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.Reason",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "417f281c-d527-483d-b75e-012921f818fa",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Removed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyValue",
+              "targetField": "System.Reason",
+              "value": "Removed from the backlog"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "9e3eebe6-7c90-4104-aeeb-043fc79f18ae",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Removed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.Reason",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "f474d258-8ac7-418f-86fb-5590f5b32cb3",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyValue",
+              "targetField": "System.Reason",
+              "value": "Acceptance tests pass"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "1db865b0-ae8f-4728-981f-653b49d97eaa",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.Reason",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "77cd0491-b188-48e7-b4b9-01d192a60da0",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Resolved"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyValue",
+              "targetField": "System.Reason",
+              "value": "Code complete and unit tests pass"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "216fa13e-d5ba-4814-881d-6bd5ef10da9f",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Resolved"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.Reason",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "03961e28-a8f8-4707-ad3c-64e0807de7b6",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyValue",
+              "targetField": "System.Reason",
+              "value": "Implementation started"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "54915d42-347e-41e2-a4d7-46922c078764",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.Reason",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "7ad4fe14-169c-4abd-89ef-120efd8c4748",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Closed"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Resolved"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyValue",
+              "targetField": "System.Reason",
+              "value": "Closed in error"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "44b23601-c5f2-4d7a-b28c-4089c6e6cd70",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Closed"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Resolved"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.Reason",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "378aad2f-f610-4504-855a-fcaa92fa1f59",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Closed"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyValue",
+              "targetField": "System.Reason",
+              "value": "Reintroduced in Scope"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "34b711af-30f2-4be8-8f76-8a99758d1298",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Closed"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.Reason",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "a77a58a6-da46-44ab-99e7-f1a67396dbec",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Closed"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "New"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyValue",
+              "targetField": "System.Reason",
+              "value": "Moved to the backlog"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "45e2f65e-c078-404f-afd0-e1220c7a193b",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Closed"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "New"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.Reason",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "3c073f1a-9d5f-4490-b092-d73c22493474",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Removed"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "New"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyValue",
+              "targetField": "System.Reason",
+              "value": "Reconsidering the User Story"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "46cf8a2b-44a4-4130-8228-367838cb60a6",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Removed"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "New"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.Reason",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "3e8e0f24-6837-4ec6-b903-444a97470b46",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": ""
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "New"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyValue",
+              "targetField": "System.Reason",
+              "value": "New"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "ddb2d3e2-97bd-43f5-bdfc-b5a4f578e37b",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": ""
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "New"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.Reason",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "74c809c3-4252-4f97-b037-ca2a627da809",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$when",
+              "field": "System.CreatedBy",
+              "value": ""
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$setDefaultFromCurrentUser",
+              "targetField": "System.CreatedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "f247a77c-d0d9-4d95-a3c1-14350a914f3b",
+          "friendlyName": null,
+          "conditions": [],
+          "actions": [
+            {
+              "actionType": "$makeReadOnly",
+              "targetField": "System.CreatedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "bc61a76e-cf45-4e38-87ef-13706bb88908",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$when",
+              "field": "System.ChangedBy",
+              "value": ""
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$setDefaultFromCurrentUser",
+              "targetField": "System.ChangedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "a3c7a97f-6cad-450d-b733-beb8bb855f32",
+          "friendlyName": null,
+          "conditions": [],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.WorkItemType",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "838a2810-934d-4bff-9271-994fd45e6361",
+          "friendlyName": null,
+          "conditions": [],
+          "actions": [
+            {
+              "actionType": "$setDefaultValue",
+              "targetField": "Microsoft.VSTS.Common.ValueArea",
+              "value": "Business"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "e4c25149-5a80-41e1-acd1-cba37e4e479c",
+          "friendlyName": null,
+          "conditions": [],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "Microsoft.VSTS.Common.ValueArea",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "d58d89cc-46b4-4727-93ad-2f2965f88363",
+          "friendlyName": null,
+          "conditions": [],
+          "actions": [
+            {
+              "actionType": "$setDefaultValue",
+              "targetField": "Microsoft.VSTS.Common.Priority",
+              "value": "2"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "e6ecb1cd-194f-4c85-a782-2dd87bff1e51",
+          "friendlyName": null,
+          "conditions": [],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.Title",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "410d62ab-0d70-4972-b2b8-39dafb52c652",
+          "friendlyName": null,
+          "conditions": [],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.State",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "72c92483-0604-49d0-8fea-130350a2d0c3",
+          "friendlyName": null,
+          "conditions": [],
+          "actions": [
+            {
+              "actionType": "$setDefaultValue",
+              "targetField": "System.State",
+              "value": "New"
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "8cf0dbd3-c974-4978-ab8d-0695cb011083",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Resolved"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$setDefaultFromCurrentUser",
+              "targetField": "System.AssignedTo",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "9b6fde2d-16da-46a6-81e2-6671cc478659",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$setDefaultFromCurrentUser",
+              "targetField": "System.AssignedTo",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "10674861-e5f5-4ad5-8217-446b3eeca8c8",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenNotChanged",
+              "field": "System.State",
+              "value": null
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeReadOnly",
+              "targetField": "Microsoft.VSTS.Common.ClosedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "ec137dc1-7b9f-40e5-adf3-367737ee0029",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Resolved"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromCurrentUser",
+              "targetField": "Microsoft.VSTS.Common.ClosedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "08197bbe-cd60-412b-9576-5a35eb168f08",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Resolved"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "Microsoft.VSTS.Common.ClosedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "51b901bb-bc4a-4e3f-a82d-d9f87d5b4c97",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromCurrentUser",
+              "targetField": "Microsoft.VSTS.Common.ClosedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "9aa89490-4388-4557-8c5c-958398e0048f",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "Microsoft.VSTS.Common.ClosedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "fad34384-e4a7-45ac-b7db-bf6e7fa0a554",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromServerCurrentUser",
+              "targetField": "Microsoft.VSTS.Common.ClosedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "0d08b4e2-16c5-44fe-b064-679d74385ef8",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Resolved"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$setValueToEmpty",
+              "targetField": "Microsoft.VSTS.Common.ClosedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "e812ab3c-cc0b-43f8-835a-31a9cffdaa5b",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$setValueToEmpty",
+              "targetField": "Microsoft.VSTS.Common.ClosedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "317e521f-a5b1-4c45-9756-641b495b4b9e",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "New"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$setValueToEmpty",
+              "targetField": "Microsoft.VSTS.Common.ClosedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "cf08d00e-3b25-4e89-b99b-812bcbd4e1e1",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenNotChanged",
+              "field": "System.State",
+              "value": null
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeReadOnly",
+              "targetField": "Microsoft.VSTS.Common.ClosedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "6b09588a-0683-4340-bae5-35e6629bdf12",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Resolved"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromServerClock",
+              "targetField": "Microsoft.VSTS.Common.ClosedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "47904123-2ae0-4b4c-86cc-488cef7bd9db",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromServerClock",
+              "targetField": "Microsoft.VSTS.Common.ClosedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "55942786-d7c3-44b5-80cb-e75710d3227c",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromServerClock",
+              "targetField": "Microsoft.VSTS.Common.ClosedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "b2a28970-f43d-4922-9694-d1ab39000a96",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Resolved"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$setValueToEmpty",
+              "targetField": "Microsoft.VSTS.Common.ClosedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "2b7feb66-a401-4a9f-919a-2f6a2042cf0e",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$setValueToEmpty",
+              "targetField": "Microsoft.VSTS.Common.ClosedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "584679ef-2853-4a89-b11c-530342677c48",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "New"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$setValueToEmpty",
+              "targetField": "Microsoft.VSTS.Common.ClosedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "5d4f831a-0d36-4d10-b7d2-853401aa8d81",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenNotChanged",
+              "field": "System.State",
+              "value": null
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeReadOnly",
+              "targetField": "Microsoft.VSTS.Common.ResolvedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "8a40d788-089b-415b-b689-dc9e34029551",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Resolved"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeReadOnly",
+              "targetField": "Microsoft.VSTS.Common.ResolvedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "0ffda9a7-d8e3-4247-b220-c87e92b2c034",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromServerCurrentUser",
+              "targetField": "Microsoft.VSTS.Common.ResolvedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "a5ddc966-5bfb-4ccf-a920-d6b862663ee7",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Resolved"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromCurrentUser",
+              "targetField": "Microsoft.VSTS.Common.ResolvedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "62943884-ac35-4f46-9112-274f5930cf98",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Resolved"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "Microsoft.VSTS.Common.ResolvedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "85fdf434-1a5a-44c1-82cc-44ec8439f336",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromServerCurrentUser",
+              "targetField": "Microsoft.VSTS.Common.ResolvedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "f64503be-7f9e-4b78-8c3f-b18d27d479de",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Resolved"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromCurrentUser",
+              "targetField": "Microsoft.VSTS.Common.ResolvedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "9362c15b-0e7c-47e7-91fd-e4896a76af6a",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Resolved"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "Microsoft.VSTS.Common.ResolvedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "37d37487-51ab-4d03-af3f-67838d79a7bb",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$setValueToEmpty",
+              "targetField": "Microsoft.VSTS.Common.ResolvedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "99b38269-fe8e-4739-8116-2db559a63848",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "New"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$setValueToEmpty",
+              "targetField": "Microsoft.VSTS.Common.ResolvedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "27f49d2b-279a-4455-977b-e70241704d72",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenNotChanged",
+              "field": "System.State",
+              "value": null
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeReadOnly",
+              "targetField": "Microsoft.VSTS.Common.ResolvedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "fabf8843-bd2a-4026-86e3-76a48d2a5232",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Resolved"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeReadOnly",
+              "targetField": "Microsoft.VSTS.Common.ResolvedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "a420599e-ae6c-4e1a-a7c1-d74f0add2ed2",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromServerClock",
+              "targetField": "Microsoft.VSTS.Common.ResolvedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "5092236b-40b8-406e-9bae-ef744dacd241",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Resolved"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromServerClock",
+              "targetField": "Microsoft.VSTS.Common.ResolvedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "f83f8f06-4f70-44ab-a98d-13735c457bcc",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromServerClock",
+              "targetField": "Microsoft.VSTS.Common.ResolvedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "ffebb971-e069-4712-9314-3bf1da0865b9",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Resolved"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromServerClock",
+              "targetField": "Microsoft.VSTS.Common.ResolvedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "900e6af2-c882-419e-ae36-c33244f98f4c",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$setValueToEmpty",
+              "targetField": "Microsoft.VSTS.Common.ResolvedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "f8ce34c4-320c-4c09-9fed-974495fd0156",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "New"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$setValueToEmpty",
+              "targetField": "Microsoft.VSTS.Common.ResolvedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "96fe7b33-b4f8-4749-9401-d206cce820c1",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenNotChanged",
+              "field": "System.State",
+              "value": null
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeReadOnly",
+              "targetField": "Microsoft.VSTS.Common.ActivatedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "db1ed57c-78bf-419c-8d5e-20154f1f1616",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Resolved"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeReadOnly",
+              "targetField": "Microsoft.VSTS.Common.ActivatedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "07b71757-5062-48d4-b105-2aff0617128d",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Resolved"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromCurrentUser",
+              "targetField": "Microsoft.VSTS.Common.ActivatedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "0138febf-c909-4af6-979a-4aa931c8e63a",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Resolved"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "Microsoft.VSTS.Common.ActivatedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "ac6acecc-ee36-4e37-b623-2fb437acb6a8",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeReadOnly",
+              "targetField": "Microsoft.VSTS.Common.ActivatedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "beb4774e-55bb-4fa5-861c-ed2fb559b37d",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Resolved"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeReadOnly",
+              "targetField": "Microsoft.VSTS.Common.ActivatedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "1b804d5b-ddaa-450e-96e4-9052a9d393ad",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromServerCurrentUser",
+              "targetField": "Microsoft.VSTS.Common.ActivatedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "1b6b3910-0220-4718-b827-18e16765f2e2",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Resolved"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromCurrentUser",
+              "targetField": "Microsoft.VSTS.Common.ActivatedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "6cd9bdb0-74d6-4c5c-a172-c963b10ed671",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromCurrentUser",
+              "targetField": "Microsoft.VSTS.Common.ActivatedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "95fcd503-3f14-4c94-a388-0af4d429fa1c",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "Microsoft.VSTS.Common.ActivatedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "f4e04897-0909-4d40-9477-399e7433ee6a",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Closed"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromCurrentUser",
+              "targetField": "Microsoft.VSTS.Common.ActivatedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "26510e01-a545-479c-9088-cea3d0a4a9a7",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Closed"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "Microsoft.VSTS.Common.ActivatedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "50185d05-486c-4b4c-8b86-66c8b20cb2cc",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "New"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$setValueToEmpty",
+              "targetField": "Microsoft.VSTS.Common.ActivatedBy",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "0c852f9f-bba8-47ac-afe8-2b6322792805",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenNotChanged",
+              "field": "System.State",
+              "value": null
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeReadOnly",
+              "targetField": "Microsoft.VSTS.Common.ActivatedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "07ba4ebb-669f-41ab-8008-fdd936d26d06",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Resolved"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeReadOnly",
+              "targetField": "Microsoft.VSTS.Common.ActivatedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "f9199d2f-46be-43e6-a7ed-d0149ba102ce",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Resolved"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromServerClock",
+              "targetField": "Microsoft.VSTS.Common.ActivatedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "6f2c16ce-45ee-40ef-8154-bf3d389f5d92",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeReadOnly",
+              "targetField": "Microsoft.VSTS.Common.ActivatedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "686d6a38-9536-46d0-b004-c9d125d7e903",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Active"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Resolved"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeReadOnly",
+              "targetField": "Microsoft.VSTS.Common.ActivatedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "0c51d51d-3348-47d3-8990-0982db0a21aa",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromServerClock",
+              "targetField": "Microsoft.VSTS.Common.ActivatedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "c71fe86c-17d3-4aeb-b1cc-298c5ad0e8a6",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Resolved"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromServerClock",
+              "targetField": "Microsoft.VSTS.Common.ActivatedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "02b3cf81-b26e-4fe3-9152-23ea684dfbbf",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "New"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromServerClock",
+              "targetField": "Microsoft.VSTS.Common.ActivatedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "d2328ccb-5643-4a13-898a-ec695eed07c3",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenWas",
+              "field": "System.State",
+              "value": "Closed"
+            },
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "Active"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromServerClock",
+              "targetField": "Microsoft.VSTS.Common.ActivatedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "0f10c054-21da-44e1-b1ce-52a16fe2e0a9",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$when",
+              "field": "System.State",
+              "value": "New"
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$setValueToEmpty",
+              "targetField": "Microsoft.VSTS.Common.ActivatedDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "010f726c-4f2a-44da-95ac-63625165b023",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenNotChanged",
+              "field": "System.State",
+              "value": null
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$makeReadOnly",
+              "targetField": "Microsoft.VSTS.Common.StateChangeDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "13701304-0bed-4e5a-b3b2-6dc315965565",
+          "friendlyName": null,
+          "conditions": [
+            {
+              "conditionType": "$whenChanged",
+              "field": "System.State",
+              "value": null
+            }
+          ],
+          "actions": [
+            {
+              "actionType": "$copyFromServerClock",
+              "targetField": "Microsoft.VSTS.Common.StateChangeDate",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "6686a232-e8a8-4ce1-aa46-aa9969af2d5c",
+          "friendlyName": null,
+          "conditions": [],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.AreaId",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        },
+        {
+          "id": "ec6ddecc-5a85-44cc-a9a7-bbe824cfc658",
+          "friendlyName": null,
+          "conditions": [],
+          "actions": [
+            {
+              "actionType": "$makeRequired",
+              "targetField": "System.IterationId",
+              "value": null
+            }
+          ],
+          "isDisabled": false,
+          "isSystem": true
+        }
+      ]
+    }
+  ],
+  "behaviors": [
+    {
+      "id": "System.PortfolioBacklogBehavior",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/System.PortfolioBacklogBehavior",
+      "description": "Portfolio level backlog and board",
+      "abstract": true,
+      "overriden": true,
+      "name": "Portfolio",
+      "color": "FFFFFF",
+      "inherits": {
+        "id": "System.OrderedBehavior",
+        "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/System.OrderedBehavior"
+      },
+      "rank": 0
+    },
+    {
+      "id": "Microsoft.VSTS.Agile.EpicBacklogBehavior",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/Microsoft.VSTS.Agile.EpicBacklogBehavior",
+      "description": "Epic level backlog and board",
+      "abstract": false,
+      "overriden": true,
+      "name": "Epics",
+      "color": "FF7B00",
+      "inherits": {
+        "id": "System.PortfolioBacklogBehavior",
+        "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/System.PortfolioBacklogBehavior"
+      },
+      "rank": 40
+    },
+    {
+      "id": "System.TaskBacklogBehavior",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/System.TaskBacklogBehavior",
+      "description": "Task level backlog and board",
+      "abstract": false,
+      "overriden": true,
+      "name": "Tasks",
+      "color": "F2CB1D",
+      "inherits": {
+        "id": "System.OrderedBehavior",
+        "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/System.OrderedBehavior"
+      },
+      "rank": 10
+    },
+    {
+      "id": "System.RequirementBacklogBehavior",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/System.RequirementBacklogBehavior",
+      "description": "Requirement level backlog and board",
+      "abstract": false,
+      "overriden": true,
+      "name": "Stories",
+      "color": "009CCC",
+      "inherits": {
+        "id": "System.OrderedBehavior",
+        "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/System.OrderedBehavior"
+      },
+      "rank": 20
+    },
+    {
+      "id": "Microsoft.VSTS.Agile.FeatureBacklogBehavior",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/Microsoft.VSTS.Agile.FeatureBacklogBehavior",
+      "description": "Feature level backlog and board",
+      "abstract": false,
+      "overriden": true,
+      "name": "Features",
+      "color": "773B93",
+      "inherits": {
+        "id": "System.PortfolioBacklogBehavior",
+        "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/System.PortfolioBacklogBehavior"
+      },
+      "rank": 30
+    },
+    {
+      "id": "System.OrderedBehavior",
+      "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/System.OrderedBehavior",
+      "description": "Enables work items to be ordered relative to other work items",
+      "abstract": true,
+      "overriden": true,
+      "name": "Ordered",
+      "color": "FFFFFF",
+      "inherits": null,
+      "rank": 0
+    }
+  ],
+  "workItemTypeBehaviors": [
+    {
+      "workItemType": {
+        "refName": "roi.UserStory",
+        "workItemTypeClass": 1
+      },
+      "behaviors": [
+        {
+          "behavior": {
+            "id": "System.RequirementBacklogBehavior",
+            "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/System.RequirementBacklogBehavior"
+          },
+          "isDefault": true,
+          "isLegacyDefault": false,
+          "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/roi.UserStory/behaviors/System.RequirementBacklogBehavior"
+        }
+      ]
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.TestSuite",
+        "workItemTypeClass": 0
+      },
+      "behaviors": []
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.Task",
+        "workItemTypeClass": 0
+      },
+      "behaviors": [
+        {
+          "behavior": {
+            "id": "System.TaskBacklogBehavior",
+            "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/System.TaskBacklogBehavior"
+          },
+          "isDefault": true,
+          "isLegacyDefault": false,
+          "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/Microsoft.VSTS.WorkItemTypes.Task/behaviors/System.TaskBacklogBehavior"
+        }
+      ]
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.TestCase",
+        "workItemTypeClass": 0
+      },
+      "behaviors": []
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.Feature",
+        "workItemTypeClass": 0
+      },
+      "behaviors": [
+        {
+          "behavior": {
+            "id": "Microsoft.VSTS.Agile.FeatureBacklogBehavior",
+            "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/Microsoft.VSTS.Agile.FeatureBacklogBehavior"
+          },
+          "isDefault": true,
+          "isLegacyDefault": false,
+          "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/Microsoft.VSTS.WorkItemTypes.Feature/behaviors/Microsoft.VSTS.Agile.FeatureBacklogBehavior"
+        }
+      ]
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.Bug",
+        "workItemTypeClass": 0
+      },
+      "behaviors": []
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.Epic",
+        "workItemTypeClass": 0
+      },
+      "behaviors": [
+        {
+          "behavior": {
+            "id": "Microsoft.VSTS.Agile.EpicBacklogBehavior",
+            "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/Microsoft.VSTS.Agile.EpicBacklogBehavior"
+          },
+          "isDefault": true,
+          "isLegacyDefault": false,
+          "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/Microsoft.VSTS.WorkItemTypes.Epic/behaviors/Microsoft.VSTS.Agile.EpicBacklogBehavior"
+        }
+      ]
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.TestPlan",
+        "workItemTypeClass": 0
+      },
+      "behaviors": []
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.Issue",
+        "workItemTypeClass": 0
+      },
+      "behaviors": []
+    }
+  ],
+  "witFieldPicklists": []
+}
