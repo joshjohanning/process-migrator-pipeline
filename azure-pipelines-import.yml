@@ -32,7 +32,7 @@ steps:
   - script: |
       processFile="$(ProcessFileName)"
       processToDelete="${processFile%.*}"
-      echo "$(processToDelete)"
+      echo "$processToDelete"
 
       output=$(curl -s -u :$(PAT) "https://dev.azure.com/$(TargetOrg)/_apis/work/processes?api-version=6.1-preview.2" | jq '.value')
       for row in $(echo "${output}" | jq -r '.[] | @base64'); do
