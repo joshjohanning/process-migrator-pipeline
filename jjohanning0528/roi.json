@@ -3815,13 +3815,6 @@
   "workItemTypeBehaviors": [
     {
       "workItemType": {
-        "refName": "Microsoft.VSTS.WorkItemTypes.Issue",
-        "workItemTypeClass": 0
-      },
-      "behaviors": []
-    },
-    {
-      "workItemType": {
         "refName": "roi.UserStory",
         "workItemTypeClass": 1
       },
@@ -3839,7 +3832,7 @@
     },
     {
       "workItemType": {
-        "refName": "Microsoft.VSTS.WorkItemTypes.TestCase",
+        "refName": "Microsoft.VSTS.WorkItemTypes.TestSuite",
         "workItemTypeClass": 0
       },
       "behaviors": []
@@ -3863,6 +3856,27 @@
     },
     {
       "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.Issue",
+        "workItemTypeClass": 0
+      },
+      "behaviors": []
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.TestPlan",
+        "workItemTypeClass": 0
+      },
+      "behaviors": []
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.Bug",
+        "workItemTypeClass": 0
+      },
+      "behaviors": []
+    },
+    {
+      "workItemType": {
         "refName": "Microsoft.VSTS.WorkItemTypes.Task",
         "workItemTypeClass": 0
       },
@@ -3880,21 +3894,7 @@
     },
     {
       "workItemType": {
-        "refName": "Microsoft.VSTS.WorkItemTypes.TestSuite",
-        "workItemTypeClass": 0
-      },
-      "behaviors": []
-    },
-    {
-      "workItemType": {
-        "refName": "Microsoft.VSTS.WorkItemTypes.Bug",
-        "workItemTypeClass": 0
-      },
-      "behaviors": []
-    },
-    {
-      "workItemType": {
-        "refName": "Microsoft.VSTS.WorkItemTypes.TestPlan",
+        "refName": "Microsoft.VSTS.WorkItemTypes.TestCase",
         "workItemTypeClass": 0
       },
       "behaviors": []
