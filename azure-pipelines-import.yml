@@ -26,7 +26,7 @@ steps:
 - script: | 
     cat <<< $(jq '.targetAccountUrl = "https://dev.azure.com/$(TargetOrg)"' configuration.json) > configuration.json
     cat <<< $(jq '.targetAccountToken = "$(PAT)"' configuration.json) > configuration.json
-    cat <<< $(jq '[.options["processFilename"] = "$(Build.SourcesDirectory)/$(ProcessFileName)"]' configuration.json) > configuration.json
+    cat <<< $(jq '.options["processFilename"] = "$(Build.SourcesDirectory)/$(ProcessFileName)"' configuration.json) > configuration.json
     cat configuration.json
   displayName: setup config
   workingDirectory: $(Pipeline.Workspace)/process-migrator
