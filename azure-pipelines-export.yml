@@ -46,7 +46,7 @@ steps:
 # The following account needs contribute permissions on repository: "Project Collection Build Service Accounts"
 - script: |
     mkdir -p $(SourceCollection)
-    cp $(Pipeline.Workspace)/process-migrator/output/process.json ./$(SourceCollection)
+    cp $(Pipeline.Workspace)/process-migrator/output/process.json ./$(SourceCollection)/$(sourceProcessName).json
     git config --global user.email "process-migrator@10thmagnitude.com"
     git config --global user.name "process-migrator"
     git add .
