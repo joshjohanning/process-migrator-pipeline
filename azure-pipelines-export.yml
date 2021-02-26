@@ -37,7 +37,9 @@ steps:
   workingDirectory: process-migrator
 
 - script: |
-    node build/nodejs/nodejs/Main.js --mode export
+    node -v
+    npm -v
+    node build/nodejs/nodejs/Main.js --mode=export
     cat output/processMigrator.log
   displayName: 'run app'
   workingDirectory: process-migrator
