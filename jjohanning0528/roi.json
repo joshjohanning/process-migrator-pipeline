@@ -3815,40 +3815,6 @@
   "workItemTypeBehaviors": [
     {
       "workItemType": {
-        "refName": "roi.UserStory",
-        "workItemTypeClass": 1
-      },
-      "behaviors": [
-        {
-          "behavior": {
-            "id": "System.RequirementBacklogBehavior",
-            "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/System.RequirementBacklogBehavior"
-          },
-          "isDefault": true,
-          "isLegacyDefault": false,
-          "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/roi.UserStory/behaviors/System.RequirementBacklogBehavior"
-        }
-      ]
-    },
-    {
-      "workItemType": {
-        "refName": "Microsoft.VSTS.WorkItemTypes.Feature",
-        "workItemTypeClass": 0
-      },
-      "behaviors": [
-        {
-          "behavior": {
-            "id": "Microsoft.VSTS.Agile.FeatureBacklogBehavior",
-            "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/Microsoft.VSTS.Agile.FeatureBacklogBehavior"
-          },
-          "isDefault": true,
-          "isLegacyDefault": false,
-          "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/Microsoft.VSTS.WorkItemTypes.Feature/behaviors/Microsoft.VSTS.Agile.FeatureBacklogBehavior"
-        }
-      ]
-    },
-    {
-      "workItemType": {
         "refName": "Microsoft.VSTS.WorkItemTypes.TestCase",
         "workItemTypeClass": 0
       },
@@ -3856,14 +3822,7 @@
     },
     {
       "workItemType": {
-        "refName": "Microsoft.VSTS.WorkItemTypes.Issue",
-        "workItemTypeClass": 0
-      },
-      "behaviors": []
-    },
-    {
-      "workItemType": {
-        "refName": "Microsoft.VSTS.WorkItemTypes.TestPlan",
+        "refName": "Microsoft.VSTS.WorkItemTypes.Bug",
         "workItemTypeClass": 0
       },
       "behaviors": []
@@ -3887,17 +3846,51 @@
     },
     {
       "workItemType": {
-        "refName": "Microsoft.VSTS.WorkItemTypes.Bug",
+        "refName": "Microsoft.VSTS.WorkItemTypes.TestSuite",
         "workItemTypeClass": 0
       },
       "behaviors": []
     },
     {
       "workItemType": {
-        "refName": "Microsoft.VSTS.WorkItemTypes.TestSuite",
+        "refName": "roi.UserStory",
+        "workItemTypeClass": 1
+      },
+      "behaviors": [
+        {
+          "behavior": {
+            "id": "System.RequirementBacklogBehavior",
+            "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/System.RequirementBacklogBehavior"
+          },
+          "isDefault": true,
+          "isLegacyDefault": false,
+          "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/roi.UserStory/behaviors/System.RequirementBacklogBehavior"
+        }
+      ]
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.TestPlan",
         "workItemTypeClass": 0
       },
       "behaviors": []
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.Feature",
+        "workItemTypeClass": 0
+      },
+      "behaviors": [
+        {
+          "behavior": {
+            "id": "Microsoft.VSTS.Agile.FeatureBacklogBehavior",
+            "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/Microsoft.VSTS.Agile.FeatureBacklogBehavior"
+          },
+          "isDefault": true,
+          "isLegacyDefault": false,
+          "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/Microsoft.VSTS.WorkItemTypes.Feature/behaviors/Microsoft.VSTS.Agile.FeatureBacklogBehavior"
+        }
+      ]
     },
     {
       "workItemType": {
@@ -3915,6 +3908,13 @@
           "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/Microsoft.VSTS.WorkItemTypes.Task/behaviors/System.TaskBacklogBehavior"
         }
       ]
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.Issue",
+        "workItemTypeClass": 0
+      },
+      "behaviors": []
     }
   ],
   "witFieldPicklists": []
