@@ -1,4 +1,4 @@
-name: $(SourceCollection)-$(Date:yyyyMMdd).$(Rev:r)
+name: $(TargetOrg)-$(Date:yyyyMMdd).$(Rev:r)
 
 trigger: none
 
@@ -24,9 +24,9 @@ steps:
   workingDirectory: $(Pipeline.Workspace)/process-migrator
 
 - script: | 
-    cat <<< $(jq '.targetAccountUrl = "https://dev.azure.com/$(SourceCollection)"' configuration.json) > configuration.json
+    cat <<< $(jq '.targetAccountUrl = "https://dev.azure.com/$(TargetOrg)"' configuration.json) > configuration.json
     cat <<< $(jq '.targetAccountToken = "$(PAT)"' configuration.json) > configuration.json
-    cat <<< $(jq '[.options["processFilename"] = "$(Build.SourcesDirectory)/$(processFilename)"]' configuration.json) > configuration.json
+    cat <<< $(jq '[.options["processFilename"] = "$(Build.SourcesDirectory)/$(ProcessFileName)"]' configuration.json) > configuration.json
     cat configuration.json
   displayName: setup config
   workingDirectory: $(Pipeline.Workspace)/process-migrator
