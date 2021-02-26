@@ -39,7 +39,7 @@ steps:
     node -v
     npm -v
     node build/nodejs/nodejs/Main.js --mode=export
-    cat output/processMigrator.log
+    less output/processMigrator.log
   displayName: 'run app'
   workingDirectory: $(Pipeline.Workspace)/process-migrator
 
@@ -49,6 +49,7 @@ steps:
     cp $(Pipeline.Workspace)/process-migrator/output/process.json ./$(SourceCollection)/$(sourceProcessName).json
     git config --global user.email "process-migrator@10thmagnitude.com"
     git config --global user.name "process-migrator"
+    git pull
     git add .
     git commit -m "export from pipeline run $(Build.BuildNumber)"
     git push origin HEAD:main
