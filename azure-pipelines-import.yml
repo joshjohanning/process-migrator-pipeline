@@ -52,8 +52,6 @@ steps:
         echo "process template not found- ${processToDelete}"
         exit -1
       fi
-
-    condition: and(succeeded(), eq('${{ parameters.deleteExistingProcessTemplate }}', true))
     displayName: delete existing process template
 
 - script: | 
