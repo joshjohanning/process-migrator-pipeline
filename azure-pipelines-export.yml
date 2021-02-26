@@ -27,6 +27,7 @@ steps:
     cat <<< $(jq '.sourceAccountUrl = "https://dev.azure.com/$(SourceCollection)"' configuration.json) > configuration.json
     cat <<< $(jq '.sourceAccountToken = "$(PAT)"' configuration.json) > configuration.json
     cat <<< $(jq '.sourceProcessName = "$(sourceProcessName)"' configuration.json) > configuration.json
+    cat <<< $(jq '.options["logLevel"] = "verbose"' configuration.json) > configuration.json
     cat configuration.json
   displayName: setup config
   workingDirectory: $(Pipeline.Workspace)/process-migrator
@@ -36,12 +37,6 @@ steps:
     node build/nodejs/nodejs/Main.js --mode=export
   displayName: 'run app'
   workingDirectory: $(Pipeline.Workspace)/process-migrator
-  
-- script: |
-    less output/processMigrator.log
-  displayName: 'verbose logs'
-  workingDirectory: $(Pipeline.Workspace)/process-migrator
-  condition: always()
 
 # The following account needs contribute permissions on repository: "Project Collection Build Service Accounts"
 - script: |
