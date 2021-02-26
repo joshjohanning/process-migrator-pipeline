@@ -32,6 +32,7 @@ steps:
   workingDirectory: $(Pipeline.Workspace)/process-migrator
 
 - script: |
+    set -euxo pipefail
     node build/nodejs/nodejs/Main.js --mode=export
   displayName: 'run app'
   workingDirectory: $(Pipeline.Workspace)/process-migrator
