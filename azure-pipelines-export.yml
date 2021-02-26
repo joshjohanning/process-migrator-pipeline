@@ -25,6 +25,7 @@ steps:
   workingDirectory: process-migrator
 
 - script: | 
+    sponge
     mv configuration.json configuration-temp.json
     jq '.sourceAccountUrl = "$(SourceCollection)"' configuration-temp.json > configuration.json
     jq '.sourceAccountToken = "$(pat)"' configuration-temp.json > configuration.json
