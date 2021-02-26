@@ -3815,61 +3815,6 @@
   "workItemTypeBehaviors": [
     {
       "workItemType": {
-        "refName": "Microsoft.VSTS.WorkItemTypes.Bug",
-        "workItemTypeClass": 0
-      },
-      "behaviors": []
-    },
-    {
-      "workItemType": {
-        "refName": "Microsoft.VSTS.WorkItemTypes.TestSuite",
-        "workItemTypeClass": 0
-      },
-      "behaviors": []
-    },
-    {
-      "workItemType": {
-        "refName": "Microsoft.VSTS.WorkItemTypes.Epic",
-        "workItemTypeClass": 0
-      },
-      "behaviors": [
-        {
-          "behavior": {
-            "id": "Microsoft.VSTS.Agile.EpicBacklogBehavior",
-            "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/Microsoft.VSTS.Agile.EpicBacklogBehavior"
-          },
-          "isDefault": true,
-          "isLegacyDefault": false,
-          "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/Microsoft.VSTS.WorkItemTypes.Epic/behaviors/Microsoft.VSTS.Agile.EpicBacklogBehavior"
-        }
-      ]
-    },
-    {
-      "workItemType": {
-        "refName": "Microsoft.VSTS.WorkItemTypes.TestPlan",
-        "workItemTypeClass": 0
-      },
-      "behaviors": []
-    },
-    {
-      "workItemType": {
-        "refName": "Microsoft.VSTS.WorkItemTypes.Task",
-        "workItemTypeClass": 0
-      },
-      "behaviors": [
-        {
-          "behavior": {
-            "id": "System.TaskBacklogBehavior",
-            "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/System.TaskBacklogBehavior"
-          },
-          "isDefault": true,
-          "isLegacyDefault": false,
-          "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/Microsoft.VSTS.WorkItemTypes.Task/behaviors/System.TaskBacklogBehavior"
-        }
-      ]
-    },
-    {
-      "workItemType": {
         "refName": "roi.UserStory",
         "workItemTypeClass": 1
       },
@@ -3884,13 +3829,6 @@
           "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/roi.UserStory/behaviors/System.RequirementBacklogBehavior"
         }
       ]
-    },
-    {
-      "workItemType": {
-        "refName": "Microsoft.VSTS.WorkItemTypes.Issue",
-        "workItemTypeClass": 0
-      },
-      "behaviors": []
     },
     {
       "workItemType": {
@@ -3915,6 +3853,68 @@
         "workItemTypeClass": 0
       },
       "behaviors": []
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.Issue",
+        "workItemTypeClass": 0
+      },
+      "behaviors": []
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.TestPlan",
+        "workItemTypeClass": 0
+      },
+      "behaviors": []
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.Epic",
+        "workItemTypeClass": 0
+      },
+      "behaviors": [
+        {
+          "behavior": {
+            "id": "Microsoft.VSTS.Agile.EpicBacklogBehavior",
+            "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/Microsoft.VSTS.Agile.EpicBacklogBehavior"
+          },
+          "isDefault": true,
+          "isLegacyDefault": false,
+          "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/Microsoft.VSTS.WorkItemTypes.Epic/behaviors/Microsoft.VSTS.Agile.EpicBacklogBehavior"
+        }
+      ]
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.Bug",
+        "workItemTypeClass": 0
+      },
+      "behaviors": []
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.TestSuite",
+        "workItemTypeClass": 0
+      },
+      "behaviors": []
+    },
+    {
+      "workItemType": {
+        "refName": "Microsoft.VSTS.WorkItemTypes.Task",
+        "workItemTypeClass": 0
+      },
+      "behaviors": [
+        {
+          "behavior": {
+            "id": "System.TaskBacklogBehavior",
+            "url": "https://dev.azure.com/jjohanning0528/_apis/work/processes/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/behaviors/System.TaskBacklogBehavior"
+          },
+          "isDefault": true,
+          "isLegacyDefault": false,
+          "url": "https://dev.azure.com/jjohanning0528/_apis/work/processDefinitions/72b9d2e7-7851-4ccd-98c8-5f2530683dd4/workItemTypes/Microsoft.VSTS.WorkItemTypes.Task/behaviors/System.TaskBacklogBehavior"
+        }
+      ]
     }
   ],
   "witFieldPicklists": []
