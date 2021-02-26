@@ -28,6 +28,7 @@ steps:
   displayName: 'npm install and build'
   workingDirectory: $(Pipeline.Workspace)/process-migrator
 
+# note - this won't delete the process template if there are any project(s) currently using it
 - ${{ if eq(parameters.deleteExistingProcessTemplate, 'true') }}:
   - script: |
       processToDelete=$(basename $(ProcessFileName) .json)
