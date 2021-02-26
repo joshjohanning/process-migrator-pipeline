@@ -25,11 +25,13 @@ steps:
   workingDirectory: process-migrator
 
 - script: | 
-    sponge
-    mv configuration.json configuration-temp.json
-    jq '.sourceAccountUrl = "$(SourceCollection)"' configuration-temp.json > configuration.json
-    jq '.sourceAccountToken = "$(pat)"' configuration-temp.json > configuration.json
-    jq '.sourceProcessName = "$(sourceProcessName)"' configuration-temp.json > configuration.json
+    cat <<< $(jq '.sourceAccountUrl = "$(SourceCollection)"' configuration.json) > configuration.json
+    cat <<< $(jq '.sourceAccountToken = "$(pat)"' configuration.json) > configuration.json
+    cat <<< $(jq '.sourceProcessName = "$(sourceProcessName)"' configuration.json) > configuration.json
+    # mv configuration.json configuration-temp.json
+    # jq '.sourceAccountUrl = "$(SourceCollection)"' configuration-temp.json > configuration.json
+    # jq '.sourceAccountToken = "$(pat)"' configuration-temp.json > configuration.json
+    # jq '.sourceProcessName = "$(sourceProcessName)"' configuration-temp.json > configuration.json
     cat configuration.json
   displayName: setup config
   workingDirectory: process-migrator
