@@ -46,7 +46,7 @@ steps:
 
       if [[ ${count} == 1 ]]; then
         echo "ID to delete: $id"
-        curl -u :$(PAT) -X DELETE "https://dev.azure.com/$(TargetOrg)/_apis/work/processes/${id}?api-version=6.1-preview.2"
+        curl -s -u :$(PAT) -X DELETE "https://dev.azure.com/$(TargetOrg)/_apis/work/processes/${id}?api-version=6.1-preview.2"
       else
         echo "process template not found: ${processToDelete}"
         exit -1
