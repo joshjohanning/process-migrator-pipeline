@@ -30,7 +30,7 @@ steps:
 
 - ${{ if eq(parameters.deleteExistingProcessTemplate, 'true') }}:
   - script: |
-      processToDelete="${$(ProcessFileName)%.*}"
+      processToDelete="${ProcessFileName%.*}"
 
       output=$(curl -s -u :$(PAT) "https://dev.azure.com/$(TargetOrg)/_apis/work/processes?api-version=6.1-preview.2" | jq '.value')
       for row in $(echo "${output}" | jq -r '.[] | @base64'); do
