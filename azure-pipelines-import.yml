@@ -1,0 +1,38 @@
+name: $(SourceCollection)-$(Date:yyyyMMdd).$(Rev:r)
+
+trigger: none
+
+pool:
+  vmImage: ubuntu-latest
+  
+variables:
+- group: azdo
+
+steps:
+
+- checkout: self
+  persistCredentials: true
+
+- script: git clone https://github.com/soccerjoshj07/process-migrator
+  displayName: clone repository
+  workingDirectory: $(Pipeline.Workspace)
+
+- script: |
+    npm install
+    npm run build
+  displayName: 'npm install and build'
+  workingDirectory: $(Pipeline.Workspace)/process-migrator
+
+- script: | 
+    cat <<< $(jq '.targetAccountUrl = "https://dev.azure.com/$(SourceCollection)"' configuration.json) > configuration.json
+    cat <<< $(jq '.targetAccountToken = "$(PAT)"' configuration.json) > configuration.json
+    cat <<< $(jq '[.options["processFilename"] = "$(Build.SourcesDirectory)/$(processFilename)"]' configuration.json) > configuration.json
+    cat configuration.json
+  displayName: setup config
+  workingDirectory: $(Pipeline.Workspace)/process-migrator
+
+- script: |
+    node build/nodejs/nodejs/Main.js --mode=import
+    less output/processMigrator.log
+  displayName: 'run app'
+  workingDirectory: $(Pipeline.Workspace)/process-migrator
