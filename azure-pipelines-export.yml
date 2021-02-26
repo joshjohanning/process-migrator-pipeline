@@ -49,7 +49,7 @@ steps:
     cp $(Pipeline.Workspace)/process-migrator/output/process.json ./$(SourceCollection)/$(sourceProcessName).json
     git config --global user.email "process-migrator@10thmagnitude.com"
     git config --global user.name "process-migrator"
-    git pull
+    git pull origin HEAD:main
     git add .
     git commit -m "export from pipeline run $(Build.BuildNumber)"
     git push origin HEAD:main
