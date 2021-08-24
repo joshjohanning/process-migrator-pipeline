@@ -18,7 +18,7 @@ steps:
 - checkout: self
   persistCredentials: true
 
-- script: git clone https://github.com/soccerjoshj07/process-migrator
+- script: git clone https://github.com/joshjohanning/process-migrator
   displayName: clone repository
   workingDirectory: $(Pipeline.Workspace)
 
